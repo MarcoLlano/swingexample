@@ -1,10 +1,14 @@
 package view;
 
-import javax.swing.*;
-import java.awt.event.MouseEvent;
+import view.DrawingPanel;
+
+import javax.swing.JFrame;
 
 /**
- * Created by Marco Llano.
+ * Write a description of class DrawingWindow here.
+ *
+ * @author (your name)
+ * @version (a version number or a date)
  */
 public class DrawingWindow extends JFrame
 {
@@ -29,4 +33,3 @@ public class DrawingWindow extends JFrame
         window.setVisible(true);
     }
 }
-
