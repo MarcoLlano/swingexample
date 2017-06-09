@@ -29,6 +29,10 @@ public class Circle
         radius = 25;
     }
 
+    public int getRadius() {
+        return radius;
+    }
+
     public void draw(Graphics g, int x, int y) {
         this.draw(g);
         this.x = x;
